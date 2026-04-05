@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SK-care Landing Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="stlye.css" />
+</head>
+<body class="bg-white text-slate-900">
+  <nav class="flex flex-col md:flex-row h-auto md:h-[137px] bg-gray-300 justify-between items-center px-[32px] py-4 md:py-0 gap-4">
+    <div class="flex items-center gap-4">
+      <a href="#" class="w-[80px] md:w-[113px] h-auto m-1">
+        <img src="/logo design_00000.png" alt="SK-care logo" class="w-full" />
+      </a>
+      <h1 class="text-4xl md:text-7xl font-medium">SK-care</h1>
+    </div>
+
+    <ul class="flex flex-wrap justify-center gap-4 items-center">
+      <li class="font-semibold text-lg md:text-2xl hover:text-yellow-400 underline decoration-2 underline-offset-4">
+        <a href="#products">Product-Type</a>
+      </li>
+      <li class="font-semibold text-lg md:text-2xl hover:text-yellow-400 underline decoration-2 underline-offset-4">
+        <a href="#contact">Contact</a>
+      </li>
+      <li class="font-semibold text-lg md:text-2xl hover:text-yellow-400 underline decoration-2 underline-offset-4">
+        <a href="#skin-test">Skin-Test</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col lg:flex-row gap-8 px-8 py-8 items-center">
+    <div class="w-full lg:w-1/2">
+      <img src="SK-Care natural skincare products.png" alt="SK-care sunscreen product" class="bg-slate-200 rounded-lg shadow-lg w-full h-auto object-cover" />
+    </div>
+
+    <div class="w-full lg:w-1/2 space-y-6">
+      <h2 class="text-3xl md:text-5xl font-bold leading-tight">
+        LA ROCHE-POSAY
+        <br />
+        ANTHELIOS UVAIR SERUM SUNSCREEN
+        <br />
+        SPF50+
+      </h2>
+
+      <p class="text-lg leading-relaxed text-slate-700">
+        ผลิตภัณฑ์กันแดดสำหรับผิวหน้า SPF50+ ปกป้องผิวสูง
+        สูตรเนื้อเซรั่มบางเบาพิเศษ ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ
+        บล็อกผิว X3 กัน PM2.5 คุมมัน - ไม่กวนเมคอัพ
+      </p>
+
+      <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+        <p class="font-bold text-xl mb-4 text-slate-800">คุณประโยชน์หลัก</p>
+        <ul class="list-disc list-inside space-y-3 text-slate-600">
+          <li>ปกป้องผิวจากอนุมูลอิสระได้นานถึง 16 ชั่วโมง*</li>
+          <li>ผิวชุ่มชื้นยาวนาน 24 ชั่วโมง**</li>
+          <li>ช่วยคุมความมันส่วนเกินได้นานถึง 16 ชั่วโมง***</li>
+          <li>เนื้อสัมผัสบางเบาพิเศษ สำหรับทุกโทนสีผิว</li>
+        </ul>
+      </div>
+      
+      <button class="bg-slate-900 text-white px-8 py-3 rounded-full font-bold hover:bg-slate-700 transition-colors">
+        Shop Now
+      </button>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section class="flex flex-wrap justify-center gap-8 px-8 pb-16">
+    <div class="bg-gray-100 w-full md:w-[30%] p-8 text-center rounded-2xl hover:shadow-md transition-shadow">
+      <img src="SK-Care Sunscreen with plumeria flower.png" alt="SPF50+ protection" class="mx-auto max-w-full h-auto rounded-lg mb-6" />
+      <p class="font-bold text-lg">SPF50+ ปกป้องผิวสูง</p>
+    </div>
+
+    <div class="bg-gray-100 w-full md:w-[30%] p-8 text-center rounded-2xl hover:shadow-md transition-shadow">
+      <img src="SK-Care Sunscreen with plumeria flower.png" alt="Light serum texture" class="mx-auto max-w-full h-auto rounded-lg mb-6" />
+      <p class="font-bold text-lg">เนื้อเซรั่มบางเบาพิเศษ</p>
+    </div>
+
+    <div class="bg-gray-100 w-full md:w-[30%] p-8 text-center rounded-2xl hover:shadow-md transition-shadow">
+      <img src="SK-Care Sunscreen with plumeria flower.png" alt="UVAIR technology" class="mx-auto max-w-full h-auto rounded-lg mb-6" />
+      <p class="font-bold text-lg leading-tight">TEXTURE POWERED BY<br/>UVAIR™ TECHNOLOGY</p>
+    </div>
+  </section>
+
+  <!-- Product Catalog Section -->
+  <section id="products" class="bg-slate-50 py-16 px-8">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-12">Explore Our Product Range</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Product 1 -->
+        <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all group">
+          <div class="aspect-square bg-gray-100 rounded-lg mb-4 overflow-hidden">
+            <img src="SK-Care natural skincare products.png" alt="Product 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+          </div>
+          <h3 class="font-bold text-xl mb-2">Daily Cleanser</h3>
+          <p class="text-slate-600 text-sm mb-4">Gentle purification for all skin types.</p>
+          <div class="flex justify-between items-center">
+            <span class="text-xl font-bold">$24.00</span>
+            <button class="text-slate-900 font-semibold hover:underline">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all group">
+          <div class="aspect-square bg-gray-100 rounded-lg mb-4 overflow-hidden">
+            <img src="SK-Care Sunscreen with plumeria flower.png" alt="Product 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+          </div>
+          <h3 class="font-bold text-xl mb-2">Hydrating Serum</h3>
+          <p class="text-slate-600 text-sm mb-4">Deep moisture for lasting radiance.</p>
+          <div class="flex justify-between items-center">
+            <span class="text-xl font-bold">$38.00</span>
+            <button class="text-slate-900 font-semibold hover:underline">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg transition-all group">
+          <div class="aspect-square bg-gray-100 rounded-lg mb-4 overflow-hidden">
+            <img src="SK-Care natural skincare products.png" alt="Product 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+          </div>
+          <h3 class="font-bold text-xl mb-2">Night Recovery</h3>
+          <p class="text-slate-600 text-sm mb-4">Intensive repair while you sleep.</p>
+          <div class="flex justify-between items-center">
+            <span class="text-xl font-bold">$45.00</span>
+            <button class="text-slate-900 font-semibold hover:underline">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skin Test CTA Section -->
+  <section id="skin-test" class="bg-slate-900 text-white py-16 px-8 text-center">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6">Discover Your Perfect Routine</h2>
+      <p class="text-slate-300 text-lg mb-8">Take our personalized skin test to find the products that work best for your unique skin type.</p>
+      <button class="bg-white text-slate-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors">
+        Start Skin Test
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-300 pt-16 pb-8 px-8">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      <div class="col-span-1 md:col-span-1">
+        <div class="flex items-center gap-2 mb-6">
+          <img src="/logo design_00000.png" alt="SK-care logo" class="w-10 h-auto" />
+          <span class="text-2xl font-bold">SK-care</span>
+        </div>
+        <p class="text-slate-600">Elevating your skincare journey with science-backed solutions.</p>
+      </div>
+      <div>
+        <h4 class="font-bold mb-6 uppercase tracking-wider text-sm">Shop</h4>
+        <ul class="space-y-4 text-slate-600">
+          <li><a href="#" class="hover:text-slate-900">All Products</a></li>
+          <li><a href="#" class="hover:text-slate-900">Sun Protection</a></li>
+          <li><a href="#" class="hover:text-slate-900">Serum & Treatments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold mb-6 uppercase tracking-wider text-sm">About</h4>
+        <ul class="space-y-4 text-slate-600">
+          <li><a href="#" class="hover:text-slate-900">Our Story</a></li>
+          <li><a href="#" class="hover:text-slate-900">Ingredients</a></li>
+          <li><a href="#" class="hover:text-slate-900">Sustainability</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold mb-6 uppercase tracking-wider text-sm">Support</h4>
+        <ul class="space-y-4 text-slate-600">
+          <li><a href="#" class="hover:text-slate-900">Help Center</a></li>
+          <li><a href="#" class="hover:text-slate-900">Shipping Policy</a></li>
+          <li><a href="#" class="hover:text-slate-900">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto pt-8 border-t border-gray-400 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
+      <p>&copy; 2026 SK-care. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-slate-900">Privacy Policy</a>
+        <a href="#" class="hover:text-slate-900">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
